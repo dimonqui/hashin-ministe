@@ -11,7 +11,7 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 <head>
 
-	<title>Montecable en el 2012</title>
+	<title>El 2012 en Montecable</title>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -49,33 +49,163 @@ Credits: http://www.montecable.com/2012/humans.txt
 <div id="main">
 
 
-	<!--| 1 · HOME
+	<!--| HOME
 	==================================================================================================== |-->
 
 	<section class="section home">
 		<nav id="home"></nav>
 		<article>
-			<h2>Bienvenidos a<br>Bungalows del Piemonte</h2>
-			<nav class="btn-type-1"><a class="anchorLink" href="#complejo">Comenzar el recorrido<i></i></a></nav>
+			<h1><span class="none">El 2012 en Montecable</span></h1>
+			<p><span class="none">Bla bla</span></p>
+			<nav class="btn"><a class="anchorLink" href="#sec1"><span class="none">Continuar</span></a></nav>
 		</article>
 	</section>
 
 
 
-	<!--| 2 · SERVICIOS
+
+	<!--| SEPARADOR MARZO
 	==================================================================================================== |-->
 
+	<section class="section mes1"></section>
 
 
-
-
-	<!--| A· SEPARADOR 1
+	<!--| NUEVA WEB
 	==================================================================================================== |-->
 
-	<section class="section sep1"></section>
+	<section class="section sec1">
+		<nav id="sec1"></nav>
+		<article>
+			<h2><span class="none">Estrenamos nueva web</span></h2>
+			<p><span class="none">Bla bla</span></p>
+			<nav class="btn"><a class="anchorLink" href="#sec2"><span class="none">Continuar</span></a></nav>
+		</article>
+	</section>
 
 
 
+
+	<!--| SEPARADOR MAYO
+	==================================================================================================== |-->
+
+	<section class="section mes2"></section>
+
+
+	<!--| ECODESAFÍO
+	==================================================================================================== |-->
+
+	<section class="section sec2">
+		<nav id="sec1"></nav>
+		<article>
+			<h2><span class="none">Ecodesafío</span></h2>
+			<p><span class="none">Bla bla</span></p>
+			<nav class="btn"><a class="anchorLink" href="#sec3"><span class="none">Continuar</span></a></nav>
+		</article>
+	</section>
+
+
+
+
+	<!--| SEPARADOR JULIO
+	==================================================================================================== |-->
+
+	<section class="section mes3"></section>
+
+
+	<!--| CANALES HD
+	==================================================================================================== |-->
+
+	<section class="section sec3">
+		<nav id="sec1"></nav>
+		<article>
+			<h2><span class="none">Canales HD</span></h2>
+			<p><span class="none">Bla bla</span></p>
+			<nav class="btn"><a class="anchorLink" href="#sec4"><span class="none">Continuar</span></a></nav>
+		</article>
+	</section>
+
+
+
+
+	<!--| SEPARADOR SETIEMBRE
+	==================================================================================================== |-->
+
+	<section class="section mes4"></section>
+
+
+	<!--| CHAT
+	==================================================================================================== |-->
+
+	<section class="section sec4">
+		<nav id="sec1"></nav>
+		<article>
+			<h2><span class="none">Chat</span></h2>
+			<p><span class="none">Bla bla</span></p>
+			<nav class="btn"><a class="anchorLink" href="#sec5"><span class="none">Continuar</span></a></nav>
+		</article>
+	</section>
+
+
+
+
+	<!--| SEPARADOR OCTUBRE
+	==================================================================================================== |-->
+
+	<section class="section mes5"></section>
+
+
+	<!--| CLICK & PLAY
+	==================================================================================================== |-->
+
+	<section class="section sec5">
+		<nav id="sec1"></nav>
+		<article>
+			<h2><span class="none">Click&Play</span></h2>
+			<p><span class="none">Bla bla</span></p>
+			<nav class="btn"><a class="anchorLink" href="#sec6"><span class="none">Continuar</span></a></nav>
+		</article>
+	</section>
+
+
+
+
+	<!--| SEPARADOR DICIEMBRE
+	==================================================================================================== |-->
+
+	<section class="section mes6"></section>
+
+
+	<!--| CLICK & PLAY
+	==================================================================================================== |-->
+
+	<section class="section sec6">
+		<nav id="sec1"></nav>
+		<article>
+			<h2><span class="none">Click&Play</span></h2>
+			<p><span class="none">Bla bla</span></p>
+			<nav class="btn"><a class="anchorLink" href="#sec7"><span class="none">Continuar</span></a></nav>
+		</article>
+	</section>
+
+
+
+
+	<!--| SEPARADOR 2013
+	==================================================================================================== |-->
+
+	<section class="section mes7"></section>
+
+
+	<!--| 2013
+	==================================================================================================== |-->
+
+	<section class="section sec7">
+		<nav id="sec1"></nav>
+		<article>
+			<h2><span class="none">Feliz 2013</span></h2>
+			<p><span class="none">Bla bla</span></p>
+		</article>
+	</section>
 
 
 

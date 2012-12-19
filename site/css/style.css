@@ -9,21 +9,6 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 html {font-family: Arial, Helvetica, sans-serif;}
 
-@font-face {
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 500;
-	src: local('Raleway Medium'), local('Raleway-Medium'), url(http://themes.googleusercotent.com/static/fonts/raleway/v6/CcKI4k9un7TZVWzRVT-T8xsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
-	}
-
-@font-face {
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 300;
-	src: local('Raleway Light'), local('Raleway-Light'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/-_Ctzj9b56b8RgXW8FAriRsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
-	}
-
-
 /*-*/
 
 
@@ -37,7 +22,7 @@ html {font-family: Arial, Helvetica, sans-serif;}
 ------------------------------------------------------------------------------------------------------------------------ |--*/
 
 body {
-	background: #c1e0cf url(../img/backs/back1.jpg) no-repeat center center fixed; 
+	background: #fff url(../img/backs/back1.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -46,223 +31,6 @@ body {
 
 /*-*/
 
-
-
-
-
-
-
-
-/*-*/
-/*--| PELOTITAS
------------------------------------------------------------------------------------------------------------------------- |--*/
-
-.pelotitas {
-	width: 10px;
-	height: auto;
-	min-height: 20px;
-	overflow: hidden;
-	padding: 10px 5px 5px 6px;
-	background-color: rgba(255, 255, 255, 0.75);
-	position: fixed;
-	z-index: 35872948751287;
-	right: 0px;
-	top: 45%;
-	   -webkit-border-top-left-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	       -moz-border-radius-topleft: 5px;
-	    -moz-border-radius-bottomleft: 5px;
-	           border-top-left-radius: 5px;
-	        border-bottom-left-radius: 5px;
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	}
-
-.pelotita a {
-	background-color: #2d2d2d;
-	display: block;
-	width: 10px;
-	height: 10px;
-	margin: 0px 0px 5px 0px;
-	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.35);
-	   -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.35);
-	        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.35);
-	-webkit-border-radius: 5px;
-	   -moz-border-radius: 5px;
-	        border-radius: 5px;
-	}
-
-.pelotita a:hover,
-.pelotita-active a {
-	background-color: #d5b27c;
-	background-position: 0px 0px;
-	background-repeat: repeat;
-	background-image: -webkit-linear-gradient(top,                                  #e5bf87 0%,             #c7a573 100%);
-	background-image: -moz-linear-gradient(top,                                     #e5bf87 0%,             #c7a573 100%);
-	background-image: -ms-linear-gradient(top,                                      #e5bf87 0%,             #c7a573 100%);
-	background-image: -o-linear-gradient(top,                                       #e5bf87 0%,             #c7a573 100%);
-	background-image: linear-gradient(to bottom,                                    #e5bf87 0%,             #c7a573 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e5bf87), color-stop(1, #c7a573 ));
-	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
-	   -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
-	        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
-	}
-
-/*-*/
-
-
-
-
-
-
-
-
-
-/*--| MODAL
------------------------------------------------------------------------------------------------------------------------- |--*/
-
-.modal {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 1000;
-	}
-
-.modal-overlay {
-	width: 100%;
-	height: 100%;
-	background-color: rgba(255, 255, 255, 0.65);
-	position: absolute;
-	z-index: 1000636326;
-	}
-
-.modal-content {
-	position: absolute;
-	z-index: 10006363261234;
-	left: 50%;
-	top: 50%;
-	margin: -235px 0px 0px -490px;
-	width: 920px;
-	height: 410px;
-	background-color: #fff;
-	padding: 30px;
-	-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.45);
-	   -moz-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.45);
-	        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.45);
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
-	}
-
-.modal-header {
-	width: 920px;
-	height: 65px;
-	}
-
-.modal-header h3 {
-	float: left;
-	font: 300 5.5em/70px Raleway, Arial, Helvetica, sans-serif;
-	color: #656565;
-	}
-
-.modal-header canvas {
-	margin: 40px 20px 0px 20px;
-	width: 580px;
-	height: 1px;
-	float: left;
-	background-color: #d6d6d6;
-	}
-
-.modal-header .close {
-	cursor: pointer;
-	width: 40px;
-	height: 40px;
-	float: left;
-	margin: 18px 0px 0px 0px;
-	background: url(../img/common.png) no-repeat -320px 0px;
-	}
-
-.modal-body {
-	width: 815px;
-	height: 390px;
-	margin: 20px 0px 0px 40px;
-	background: url(../img/ubicacion.png) no-repeat 0px 0px;
-	}
-
-/*-*/
-
-
-
-
-
-
-
-
-/*-*/
-/*--| HEADER
------------------------------------------------------------------------------------------------------------------------- |--*/
-
-header {
-	opacity: 0.96;
-	width: 100%;
-	height: 70px;
-	position: fixed;
-	top: 0px;
-	z-index: 900;
-	background-color: #2e2e2e;
-	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.85);
-	   -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.85);
-	        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.85);
-	}
-
-.header_wrapper {
-	width: 1000px;
-	height: 70px;
-	margin: 0px auto 0px auto;
-	}
-
-h1 a {
-	width: 220px;
-	height: 35px;
-	margin: 19px 0px 0px 0px;
-	background: url(../img/common.png) no-repeat 0px 0px;
-	float: left;
-	}
-	h1 a:hover {background: url(../img/common.png) no-repeat 0px -35px;}
-
-nav.main-menu {
-	width: 700px;
-	height: 30px;
-	float: right;
-	margin: 20px 0px 0px 0px;
-	}
-
-nav.main-menu ul {
-	float: right;
-	height: 30px;
-	}
-
-nav.main-menu ul li {float: left;}
-
-nav.main-menu ul li a {
-	font: normal 1.2em/30px Raleway, Arial, Helvetica, sans-serif;
-	color: #e0dfe0;
-	text-transform: uppercase;
-	display: block;
-	float: left;
-	height: 30px;
-	margin: 0px 0px 0px 0px;
-	border-left: 1px solid #484848;
-	border-right: 1px solid #0d0d0d;
-	padding: 0px 13px 0px 13px;
-	}
-nav.main-menu ul li.active a,
-nav.main-menu ul li a:hover {color: #d2a369;}
-nav.main-menu ul li:first-child a {border-left: none;}
-nav.main-menu ul li:last-child a {border-right: none;}
-
-/*-*/
 
 
 
@@ -292,6 +60,16 @@ nav.main-menu ul li:last-child a {border-right: none;}
 /*--| 1 · HOME
 ---------------------------------------------------------------------------------------------------- |--*/
 
+.home {background-color: #fff;}
+
+.sec2 {background-color: #8ba621;}
+.sec3 {background-color: #21a656;}
+.sec4 {background-color: #2156a6;}
+.sec5 {background-color: #a62121;}
+.sec6 {background-color: #8ba621;}
+.sec7 {background-color: #21a656;}
+
+
 .home {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -299,18 +77,49 @@ nav.main-menu ul li:last-child a {border-right: none;}
 	background-size: cover;
 	}
 
-.home article {
-	width: 800px;
-	height: 220px;
-	margin: -220px 0px 0px -400px;
-	position: fixed;
+.section article {
+	width: 960px;
+	height: 450px;
+	margin: -225px 0px 0px -480px;
+	position: absolute;
 	top: 50%;
 	left: 50%;
-	padding: 20px;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.65);
 	}
+
+.mes1, .mes2, .mes3, .mes4, .mes5, .mes6, .mes7 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
+.mes1 {background: url(../img/backs/mes1.jpg) no-repeat center center fixed;}
+.mes2 {background: url(../img/backs/mes2.jpg) no-repeat center center fixed;}
+.mes3 {background: url(../img/backs/mes3.jpg) no-repeat center center fixed;}
+.mes4 {background: url(../img/backs/mes4.jpg) no-repeat center center fixed;}
+.mes5 {background: url(../img/backs/mes5.jpg) no-repeat center center fixed;}
+.mes6 {background: url(../img/backs/mes6.jpg) no-repeat center center fixed;}
+.mes7 {background: url(../img/backs/mes7.jpg) no-repeat center center fixed;}
+
+.sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	}
+
+.sec1 {background: url(../img/backs/mes1c.jpg) no-repeat center center fixed;}
+.sec2 {background: url(../img/backs/mes2c.jpg) no-repeat center center fixed;}
+.sec3 {background: url(../img/backs/mes3c.jpg) no-repeat center center fixed;}
+.sec4 {background: url(../img/backs/mes4c.jpg) no-repeat center center fixed;}
+.sec5 {background: url(../img/backs/mes5c.jpg) no-repeat center center fixed;}
+.sec6 {background: url(../img/backs/mes6c.jpg) no-repeat center center fixed;}
+.sec7 {background: url(../img/backs/mes7c.jpg) no-repeat center center fixed;}
+
 
 .home article h2 {
 	font: 500 6em/1.2em Raleway, Arial, Helvetica, sans-serif;
@@ -1141,8 +950,7 @@ footer {
 	opacity: 0.96;
 	width: 100%;
 	height: 35px;
-	position: fixed;
-	bottom: 0px;
+	position: absolute;
 	z-index: 90000;
 	background-color: #2e2e2e;
 	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
