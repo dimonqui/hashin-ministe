@@ -113,9 +113,9 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.85);
+	   -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.85);
+	        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.85);
 	}
 
 .sec1 {background: url(../img/backs/mes1c.jpg) no-repeat center center fixed;}
