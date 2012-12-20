@@ -56,7 +56,6 @@ Credits: http://www.montecable.com/2012/humans.txt
 		<nav id="home"></nav>
 		<article id="hola">
 			<h1><span class="none">El 2012 en Montecable</span></h1>
-			<p><span class="none">Bla bla</span></p>
 			<nav class="btn"><a class="anchorLink" href="#sec1"><span class="none">Continuar</span></a></nav>
 		</article>
 	</section>
@@ -64,20 +63,19 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 
 
-	<!--| SEPARADOR MARZO
+	<!--| SEPARADOR ENERO
 	==================================================================================================== |-->
 
 	<section class="section mes1"></section>
 
 
-	<!--| NUEVA WEB
+	<!--| ENERO - CRECIENDO
 	==================================================================================================== |-->
 
 	<section class="section sec1">
 		<nav id="sec1"></nav>
 		<article>
-			<h2><span class="none">Estrenamos nueva web</span></h2>
-			<p><span class="none">Bla bla</span></p>
+			<h2><span class="none">Creciendo</span></h2>
 			<nav class="btn"><a class="anchorLink" href="#sec2"><span class="none">Continuar</span></a></nav>
 		</article>
 	</section>
@@ -91,14 +89,13 @@ Credits: http://www.montecable.com/2012/humans.txt
 	<section class="section mes2"></section>
 
 
-	<!--| ECODESAFÍO
+	<!--| MAYO - NUEVA WEB
 	==================================================================================================== |-->
 
 	<section class="section sec2">
 		<nav id="sec1"></nav>
 		<article>
-			<h2><span class="none">Ecodesafío</span></h2>
-			<p><span class="none">Bla bla</span></p>
+			<h2><span class="none">Nueva Web</span></h2>
 			<nav class="btn"><a class="anchorLink" href="#sec3"><span class="none">Continuar</span></a></nav>
 		</article>
 	</section>
@@ -106,20 +103,19 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 
 
-	<!--| SEPARADOR JULIO
+	<!--| SEPARADOR JUNIO
 	==================================================================================================== |-->
 
 	<section class="section mes3"></section>
 
 
-	<!--| CANALES HD
+	<!--| JUNIO - ENTREGANDO SONRISAS
 	==================================================================================================== |-->
 
 	<section class="section sec3">
 		<nav id="sec1"></nav>
 		<article>
-			<h2><span class="none">Canales HD</span></h2>
-			<p><span class="none">Bla bla</span></p>
+			<h2><span class="none">Entregando Sonrisas</span></h2>
 			<nav class="btn"><a class="anchorLink" href="#sec4"><span class="none">Continuar</span></a></nav>
 		</article>
 	</section>
@@ -133,14 +129,13 @@ Credits: http://www.montecable.com/2012/humans.txt
 	<section class="section mes4"></section>
 
 
-	<!--| CHAT
+	<!--| SETIEMBRE - CLICK & PLAY
 	==================================================================================================== |-->
 
 	<section class="section sec4">
 		<nav id="sec1"></nav>
 		<article>
-			<h2><span class="none">Chat</span></h2>
-			<p><span class="none">Bla bla</span></p>
+			<h2><span class="none">Click</span></h2>
 			<nav class="btn"><a class="anchorLink" href="#sec5"><span class="none">Continuar</span></a></nav>
 		</article>
 	</section>
@@ -148,20 +143,19 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 
 
-	<!--| SEPARADOR OCTUBRE
+	<!--| SEPARADOR NOVIEMBRE
 	==================================================================================================== |-->
 
 	<section class="section mes5"></section>
 
 
-	<!--| CLICK & PLAY
+	<!--| NOVIEMBRE - 3D
 	==================================================================================================== |-->
 
 	<section class="section sec5">
 		<nav id="sec1"></nav>
 		<article>
-			<h2><span class="none">Click&Play</span></h2>
-			<p><span class="none">Bla bla</span></p>
+			<h2><span class="none">3D</span></h2>
 			<nav class="btn"><a class="anchorLink" href="#sec6"><span class="none">Continuar</span></a></nav>
 		</article>
 	</section>
@@ -175,14 +169,13 @@ Credits: http://www.montecable.com/2012/humans.txt
 	<section class="section mes6"></section>
 
 
-	<!--| CLICK & PLAY
+	<!--| DICIEMBRE - FACEBOOK
 	==================================================================================================== |-->
 
 	<section class="section sec6">
 		<nav id="sec1"></nav>
 		<article>
-			<h2><span class="none">Click&Play</span></h2>
-			<p><span class="none">Bla bla</span></p>
+			<h2><span class="none">Facebook</span></h2>
 			<nav class="btn"><a class="anchorLink" href="#sec7"><span class="none">Continuar</span></a></nav>
 		</article>
 	</section>
@@ -203,7 +196,6 @@ Credits: http://www.montecable.com/2012/humans.txt
 		<nav id="sec1"></nav>
 		<article>
 			<h2><span class="none">Feliz 2013</span></h2>
-			<p><span class="none">Bla bla</span></p>
 		</article>
 	</section>
 
