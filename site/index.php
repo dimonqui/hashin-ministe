@@ -54,7 +54,7 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 	<section class="section home">
 		<nav id="home"></nav>
-		<article>
+		<article id="hola">
 			<h1><span class="none">El 2012 en Montecable</span></h1>
 			<p><span class="none">Bla bla</span></p>
 			<nav class="btn"><a class="anchorLink" href="#sec1"><span class="none">Continuar</span></a></nav>

@@ -1,39 +1,16 @@
 $(document).ready(function() {
+    var scrollorama = $.scrollorama({
+        blocks:'.section'
+    });
+
+/*scrollorama.animate('#hola',{
+     delay: 0,
+     duration: 300,
+     property:'left',
+     start: 50,
+     end: 1440
+})*/
 
 
-/*--| ANCHORS
------------------------------------------------------------------------------------------------------------------------- |--*/
-
-$("a.anchorLink").anchorAnimate()
-
-
-
-
-/*--| SLIDER
------------------------------------------------------------------------------------------------------------------------- |--*/
-
-$(".servicios_bot-right figure").easySlider({
-		auto: true,
-		continuous: true 
-	});
-
-
-
-/*--| CYCLE
------------------------------------------------------------------------------------------------------------------------- |--*/
-
-$('.slider').cycle({ 
-	fx:   'fade', 
-	speed: 2500 
-	});
-
-
-$('.ver-ubicacion').click(function(){
-	$(".modal").removeClass('none');
-	});
-
-$('.close').click(function(){
-	$(".modal").addClass('none');
-	});
 
 });
