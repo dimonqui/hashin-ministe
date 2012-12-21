@@ -19,7 +19,7 @@ $("body").queryLoader2({
 $("a.anchorLink").anchorAnimate();
 
 //cada vez que se recarga la página, comenzar desde cero:
-	$("html, body").animate({ scrollTop: 0 },{duration: 500, queue: false} );
+$("html, body").animate({ scrollTop: 0 },{duration: 500, queue: false} );
 
 
 });
