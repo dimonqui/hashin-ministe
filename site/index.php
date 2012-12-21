@@ -276,6 +276,7 @@ Credits: http://www.montecable.com/2012/humans.txt
 		background: url('img/content/compartir.png');
 		width: 86px;
 		height: 21px;
+		cursor: pointer;
 	}
 	</style>
 </body>
