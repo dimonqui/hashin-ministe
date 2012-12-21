@@ -4,6 +4,42 @@ Credits: http://www.montecable.com/2012/humans.txt
 */
 
 
+/*-*/
+
+
+
+
+
+
+
+
+/*-*/
+/*--| LOADER
+------------------------------------------------------------------------------------------------------------------------ |--*/
+
+#qLpercentage {
+	font: 500 10em/1.2em Raleway, Arial, Helvetica, sans-serif;
+	color: #fff;
+	}
+
+#qLbar {
+	background-color: #b6080a;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
+/*-*/
+
+
+
+
+
+
+
+
+/*-*/
 /*--| TYPOGRAPHY
 ------------------------------------------------------------------------------------------------------------------------ |--*/
 
@@ -16,7 +52,6 @@ html {font-family: Arial, Helvetica, sans-serif;}
   src: local('Raleway Bold'), local('Raleway-Bold'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/JbtMzqLaYbbbCL9X6EvaIxsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
 
-
 /*-*/
 
 
@@ -26,11 +61,12 @@ html {font-family: Arial, Helvetica, sans-serif;}
 
 
 
-/*-*//*--| BODY
+/*-*/
+/*--| BODY
 ------------------------------------------------------------------------------------------------------------------------ |--*/
 
 body {
-	background: #fff url(../img/backs/back1.jpg) no-repeat center center fixed; 
+	background: #fff; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -191,6 +227,9 @@ body {
 	        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.74);
 	}
 
+.home .btn a {
+	left: 340px;	
+}	
 /*-*/
 
 
