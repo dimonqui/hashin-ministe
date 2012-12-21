@@ -54,9 +54,9 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 	<section class="section home">
 		<nav id="home"></nav>
-		<article id="hola">
+		<article>
 			<h1><span class="none">El 2012 en Montecable</span></h1>
-			<nav class="btn"><a class="anchorLink" href="#sec1"><span class="none">Continuar</span></a></nav>
+			<nav class="btn"><a class="anchorLink" href="#sec1">Comenzar</a></nav>
 		</article>
 	</section>
 
@@ -76,7 +76,7 @@ Credits: http://www.montecable.com/2012/humans.txt
 		<nav id="sec1"></nav>
 		<article>
 			<h2><span class="none">Creciendo</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec2"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-right"><a class="anchorLink" href="#sec2">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -93,10 +93,10 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec2">
-		<nav id="sec1"></nav>
+		<nav id="sec2"></nav>
 		<article>
 			<h2><span class="none">Nueva Web</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec3"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-left"><a class="anchorLink" href="#sec3">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -113,10 +113,10 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec3">
-		<nav id="sec1"></nav>
+		<nav id="sec3"></nav>
 		<article>
 			<h2><span class="none">Entregando Sonrisas</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec4"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-right"><a class="anchorLink" href="#sec4">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -133,10 +133,10 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec4">
-		<nav id="sec1"></nav>
+		<nav id="sec4"></nav>
 		<article>
 			<h2><span class="none">Click</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec5"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-left"><a class="anchorLink" href="#sec5">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -153,10 +153,10 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec5">
-		<nav id="sec1"></nav>
+		<nav id="sec5"></nav>
 		<article>
 			<h2><span class="none">3D</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec6"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-right"><a class="anchorLink" href="#sec6">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -173,10 +173,10 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec6">
-		<nav id="sec1"></nav>
+		<nav id="sec6"></nav>
 		<article>
 			<h2><span class="none">Facebook</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec7"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-left"><a class="anchorLink" href="#sec7">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -193,7 +193,7 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec7">
-		<nav id="sec1"></nav>
+		<nav id="sec7"></nav>
 		<article>
 			<h2><span class="none">Feliz 2013</span></h2>
 		</article>

@@ -1,16 +1,21 @@
 $(document).ready(function() {
-    var scrollorama = $.scrollorama({
-        blocks:'.section'
-    });
 
-/*scrollorama.animate('#hola',{
-     delay: 0,
-     duration: 300,
-     property:'left',
-     start: 50,
-     end: 1440
-})*/
+/*--| QUERY LOADER
+----------------------------------------------------------------------------------------------------------------------- |--*/
+
+/*$("body").queryLoader2({
+	barColor: "#dbc16a",
+	backgroundColor: "#2d2d2d",
+	percentage: true,
+	barHeight: 30,
+	completeAnimation: "grow"
+});*/
 
 
+
+/*--| ANCHORS
+------------------------------------------------------------------------------------------------------------------------ |--*/
+
+$("a.anchorLink").anchorAnimate()
 
 });

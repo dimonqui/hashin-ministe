@@ -15,11 +15,11 @@ From: Montevideo, Uruguay
 	Contact: nicolas [at] iugo.com.uy
 	From: Montevideo, Uruguay
 
-	Idea, Chief Designer & Project Manager: Alfonso Medeiros
+	Idea, Design & Project Manager: Alfonso Medeiros
 	Contact: alfonso [at] iugo.com.uy
 	From: Montevideo, Uruguay
 
-	Idea, HTML/CSS Coding & some design and JS Programming: Fede Hartman
+	Idea, Design, HTML/CSS Coding & JS Programming: Fede Hartman
 	Contact: federico [at] iugo.com.uy
 	From: Montevideo, Uruguay
 
