@@ -21,9 +21,9 @@ Credits: http://www.montecable.com/2012/humans.txt
 	<meta name="viewport" content="width=device-width">
 
 	<meta property="og:title" content="Montecable 2012" />
-	<meta property="og:type" content="" />
-	<meta property="og:url" content="http://www.montecable.com/2012" />
-	<meta property="og:image" content="http://www.montecable.com/public/2012/img/content/face.jpg" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://montecable.com/public/2012" />
+	<meta property="og:image" content="http://montecable.com/public/2012/img/content/face.jpg" />
 	<meta property="og:site_name" content="Montecable" />
 	<meta property="fb:admins" content="1257423511" />
 
