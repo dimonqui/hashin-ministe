@@ -46,6 +46,7 @@ Credits: http://www.montecable.com/2012/humans.txt
 </head>
 
 <body>
+	<div id="fb-root"></div>
 
 	<?php include("ie.php"); ?>
 
@@ -232,7 +233,6 @@ Credits: http://www.montecable.com/2012/humans.txt
 	<!--| ================================================================================================================== |-->
 
 	<?php include("scripts.php"); ?>
-	<div id="fb-root"></div>
 	<script>/*(function(d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];
 		if (d.getElementById(id)) return;
@@ -259,7 +259,7 @@ window.fbAsyncInit = function() {
     	js = d.createElement('script');
     	js.id = id;
     	js.async = true;
-    	js.src = "//connect.facebook.net/en_US/all.js";
+    	js.src = "//connect.facebook.net/es_LA/all.js";
     	ref.parentNode.insertBefore(js, ref);
     }(document));
     </script>
@@ -271,7 +271,7 @@ window.fbAsyncInit = function() {
     	{
     		method: 'feed',
     		picture : ''	,
-    		link : 'http://www.montecable.com/public/2012',
+    		link : 'http://www.montecable.com',
     		name :'Montecable 2012',
     		description : 'Montecable 2012'
     	},
