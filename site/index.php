@@ -20,6 +20,13 @@ Credits: http://www.montecable.com/2012/humans.txt
 	<meta name="robots" content="all" /> 
 	<meta name="viewport" content="width=device-width">
 
+	<meta property="og:title" content="Montecable 2012" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://montecable.com/public/2012" />
+	<meta property="og:image" content="http://montecable.com/public/2012/img/content/face.jpg" />
+	<meta property="og:site_name" content="Montecable" />
+	<meta property="fb:admins" content="1257423511" />
+
 	<link rel="shortcut icon" href="img/favicons/favicon.ico" />
 	<link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" />
 	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -39,14 +46,15 @@ Credits: http://www.montecable.com/2012/humans.txt
 </head>
 
 <body>
+	<div id="fb-root"></div>
 
-<?php include("ie.php"); ?>
+	<?php include("ie.php"); ?>
 
 
 <!--| MAIN
-======================================================================================================================== |-->
+	======================================================================================================================== |-->
 
-<div id="main">
+	<div id="main">
 
 
 	<!--| HOME
@@ -54,9 +62,9 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 	<section class="section home">
 		<nav id="home"></nav>
-		<article id="hola">
+		<article>
 			<h1><span class="none">El 2012 en Montecable</span></h1>
-			<nav class="btn"><a class="anchorLink" href="#sec1"><span class="none">Continuar</span></a></nav>
+			<nav class="btn"><a class="anchorLink" href="#sec1">Comenzar</a></nav>
 		</article>
 	</section>
 
@@ -76,7 +84,7 @@ Credits: http://www.montecable.com/2012/humans.txt
 		<nav id="sec1"></nav>
 		<article>
 			<h2><span class="none">Creciendo</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec2"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-right"><a class="anchorLink" href="#sec2">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -93,10 +101,10 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec2">
-		<nav id="sec1"></nav>
+		<nav id="sec2"></nav>
 		<article>
 			<h2><span class="none">Nueva Web</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec3"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-left"><a class="anchorLink" href="#sec3">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -113,10 +121,10 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec3">
-		<nav id="sec1"></nav>
+		<nav id="sec3"></nav>
 		<article>
 			<h2><span class="none">Entregando Sonrisas</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec4"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-right"><a class="anchorLink" href="#sec4">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -133,10 +141,10 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec4">
-		<nav id="sec1"></nav>
+		<nav id="sec4"></nav>
 		<article>
 			<h2><span class="none">Click</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec5"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-left"><a class="anchorLink" href="#sec5">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -153,10 +161,10 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec5">
-		<nav id="sec1"></nav>
+		<nav id="sec5"></nav>
 		<article>
 			<h2><span class="none">3D</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec6"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-right"><a class="anchorLink" href="#sec6">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -173,10 +181,10 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec6">
-		<nav id="sec1"></nav>
+		<nav id="sec6"></nav>
 		<article>
 			<h2><span class="none">Facebook</span></h2>
-			<nav class="btn"><a class="anchorLink" href="#sec7"><span class="none">Continuar</span></a></nav>
+			<nav class="btn btn-left"><a class="anchorLink" href="#sec7">Continuar</a></nav>
 		</article>
 	</section>
 
@@ -193,10 +201,11 @@ Credits: http://www.montecable.com/2012/humans.txt
 	==================================================================================================== |-->
 
 	<section class="section sec7">
-		<nav id="sec1"></nav>
+		<nav id="sec7"></nav>
 		<article>
 			<h2><span class="none">Feliz 2013</span></h2>
 		</article>
+		<div class="fb-like" data-send="false" data-layout="button_count" data-href="http://www.montecable.com/2012" data-width="450" data-show-faces="true"></div>
 	</section>
 
 
@@ -210,18 +219,71 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 
 <!--| FOOTER
-======================================================================================================================== |-->
+	======================================================================================================================== |-->
 
-<footer>
-	<div class="footer_wrapper">
-		
-	</div>
-</footer>
+	<footer>
+		<div class="footer_wrapper">
+
+		</div>
+	</footer>
 
 
-<!--| ================================================================================================================== |-->
+	<!--| ================================================================================================================== |-->
 
-<?php include("scripts.php"); ?>
+	<?php include("scripts.php"); ?>
+	<script>/*(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=395240990496641";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));*/
 
-</body>
-</html>
+window.fbAsyncInit = function() {
+	FB.init({
+          appId      : '395240990496641', // App ID
+          status     : true, // check login status
+          cookie     : true, // enable cookies to allow the server to access the session
+          xfbml      : true  // parse XFBML
+        });
+};
+
+    // Load the SDK Asynchronously
+    (function(d){
+    	var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+    	if (d.getElementById(id)) {
+    		return;
+    	}
+    	js = d.createElement('script');
+    	js.id = id;
+    	js.async = true;
+    	js.src = "//connect.facebook.net/es_LA/all.js";
+    	ref.parentNode.insertBefore(js, ref);
+    }(document));
+    </script>
+
+
+
+    <style type="text/css">
+    .fb-like{
+    	position: relative;
+    	top:400px;
+    	left: 611px;
+    	z-index: 1000;
+
+
+    }
+
+    .fb{
+    	position: relative;
+    	top:380px;
+    	left: 729px;
+    	z-index: 1000;
+    	background: url('img/content/compartir.png');
+    	width: 86px;
+    	height: 21px;
+    	cursor: pointer;
+    }
+    </style>
+  </body>
+  </html>
