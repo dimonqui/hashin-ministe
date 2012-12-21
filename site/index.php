@@ -197,7 +197,7 @@ Credits: http://www.montecable.com/2012/humans.txt
 		<article>
 			<h2><span class="none">Feliz 2013</span></h2>
 		</article>
-		<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+		<div class="fb-like" data-send="false" data-layout="button_count" data-href="http://www.montecable.com/2012" data-width="450" data-show-faces="true"></div>
 		<div class="fb" onclick="return publicarFacebook();"><a href="#" ><span class="none">Facebook</span></a></div>
 
 	</section>
