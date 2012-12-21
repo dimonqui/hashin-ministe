@@ -20,6 +20,13 @@ Credits: http://www.montecable.com/2012/humans.txt
 	<meta name="robots" content="all" /> 
 	<meta name="viewport" content="width=device-width">
 
+	<meta property="og:title" content="Montecable 2012" />
+	<meta property="og:type" content="" />
+	<meta property="og:url" content="http://www.montecable.com/2012" />
+	<meta property="og:image" content="http://www.montecable.com/public/2012/img/content/face.jpg" />
+	<meta property="og:site_name" content="Montecable" />
+	<meta property="fb:admins" content="1257423511" />
+
 	<link rel="shortcut icon" href="img/favicons/favicon.ico" />
 	<link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" />
 	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png" />
@@ -234,42 +241,42 @@ Credits: http://www.montecable.com/2012/humans.txt
 		fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));*/
 
-  window.fbAsyncInit = function() {
-    FB.init({
+window.fbAsyncInit = function() {
+	FB.init({
           appId      : '395240990496641', // App ID
           status     : true, // check login status
           cookie     : true, // enable cookies to allow the server to access the session
           xfbml      : true  // parse XFBML
-      });
+        });
 };
 
     // Load the SDK Asynchronously
     (function(d){
-        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-        if (d.getElementById(id)) {
-            return;
-        }
-        js = d.createElement('script');
-        js.id = id;
-        js.async = true;
-        js.src = "//connect.facebook.net/en_US/all.js";
-        ref.parentNode.insertBefore(js, ref);
+    	var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+    	if (d.getElementById(id)) {
+    		return;
+    	}
+    	js = d.createElement('script');
+    	js.id = id;
+    	js.async = true;
+    	js.src = "//connect.facebook.net/en_US/all.js";
+    	ref.parentNode.insertBefore(js, ref);
     }(document));
-</script>
+    </script>
 
-	<script type="text/javascript">
+    <script type="text/javascript">
 
-	function publicarFacebook(){    
-		FB.ui(
-		{
-			method: 'feed',
-			picture : ''	,
-			link : 'http://www.montecable.com/2012',
-			name :'Montecable 2012',
-			description : 'Montecable 2012'
-		},
-		function(response) {
-			if (response && response.post_id) {
+    function publicarFacebook(){    
+    	FB.ui(
+    	{
+    		method: 'feed',
+    		picture : ''	,
+    		link : 'http://www.montecable.com/public/2012',
+    		name :'Montecable 2012',
+    		description : 'Montecable 2012'
+    	},
+    	function(response) {
+    		if (response && response.post_id) {
                 //alert('Post was published.');
               } else {
                 //alert('Post was not published.');
@@ -277,30 +284,30 @@ Credits: http://www.montecable.com/2012/humans.txt
             }
             );
 
-		return false;
-	}
-	</script>
+    	return false;
+    }
+    </script>
 
-	<style type="text/css">
-	.fb-like{
-		position: relative;
-		top:400px;
-		left: 611px;
-		z-index: 1000;
+    <style type="text/css">
+    .fb-like{
+    	position: relative;
+    	top:400px;
+    	left: 611px;
+    	z-index: 1000;
 
 
-	}
+    }
 
-	.fb{
-		position: relative;
-		top:380px;
-		left: 729px;
-		z-index: 1000;
-		background: url('img/content/compartir.png');
-		width: 86px;
-		height: 21px;
-		cursor: pointer;
-	}
-	</style>
-</body>
-</html>
+    .fb{
+    	position: relative;
+    	top:380px;
+    	left: 729px;
+    	z-index: 1000;
+    	background: url('img/content/compartir.png');
+    	width: 86px;
+    	height: 21px;
+    	cursor: pointer;
+    }
+    </style>
+  </body>
+  </html>
