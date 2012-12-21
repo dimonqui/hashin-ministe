@@ -205,7 +205,14 @@ Credits: http://www.montecable.com/2012/humans.txt
 		<article>
 			<h2><span class="none">Feliz 2013</span></h2>
 		</article>
-		<div class="fb-like" data-send="false" data-layout="button_count" data-href="http://www.montecable.com/2012" data-width="450" data-show-faces="true"></div>
+		<div class="social">
+
+			<div class="fb-like" data-send="false" data-layout="button_count" data-href="http://www.montecable.com/2012" data-width="450" data-show-faces="true"></div>
+			
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.montecable.com/2012" data-text="El 2012 en Montecable →" data-lang="es" data-hashtags="montecable2012">Twittear</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			
+		</div>
 	</section>
 
 
@@ -266,24 +273,11 @@ window.fbAsyncInit = function() {
 
     <style type="text/css">
     .fb-like{
-    	position: relative;
-    	top:400px;
-    	left: 611px;
-    	z-index: 1000;
-
-
+    	width: 150px;
+    	height: 50px;
+    	float: left;
     }
 
-    .fb{
-    	position: relative;
-    	top:380px;
-    	left: 729px;
-    	z-index: 1000;
-    	background: url('img/content/compartir.png');
-    	width: 86px;
-    	height: 21px;
-    	cursor: pointer;
-    }
     </style>
   </body>
   </html>
