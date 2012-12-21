@@ -40,13 +40,13 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 <body>
 
-<?php include("ie.php"); ?>
+	<?php include("ie.php"); ?>
 
 
 <!--| MAIN
-======================================================================================================================== |-->
+	======================================================================================================================== |-->
 
-<div id="main">
+	<div id="main">
 
 
 	<!--| HOME
@@ -197,6 +197,9 @@ Credits: http://www.montecable.com/2012/humans.txt
 		<article>
 			<h2><span class="none">Feliz 2013</span></h2>
 		</article>
+		<div class="fb-like" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+		<div class="fb" onclick="return publicarFacebook();"><a href="#" ><span class="none">Facebook</span></a></div>
+
 	</section>
 
 
@@ -210,18 +213,70 @@ Credits: http://www.montecable.com/2012/humans.txt
 
 
 <!--| FOOTER
-======================================================================================================================== |-->
+	======================================================================================================================== |-->
 
-<footer>
-	<div class="footer_wrapper">
-		
-	</div>
-</footer>
+	<footer>
+		<div class="footer_wrapper">
+
+		</div>
+	</footer>
 
 
-<!--| ================================================================================================================== |-->
+	<!--| ================================================================================================================== |-->
 
-<?php include("scripts.php"); ?>
+	<?php include("scripts.php"); ?>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1&appId=395240990496641";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
+	<script type="text/javascript">
+
+	function publicarFacebook(){    
+		FB.ui(
+		{
+			method: 'feed',
+			picture : ''	,
+			link : 'http://www.montecable.com/2012',
+			name :'Montecable 2012',
+			description : 'Montecable 2012'
+		},
+		function(response) {
+			if (response && response.post_id) {
+                //alert('Post was published.');
+              } else {
+                //alert('Post was not published.');
+              }
+            }
+            );
+
+		return false;
+	}
+	</script>
+
+	<style type="text/css">
+	.fb-like{
+		position: relative;
+		top:400px;
+		left: 611px;
+		z-index: 1000;
+
+
+	}
+
+	.fb{
+		position: relative;
+		top:380px;
+		left: 729px;
+		z-index: 1000;
+		background: url('img/content/compartir.png');
+		width: 86px;
+		height: 21px;
+	}
+	</style>
 </body>
 </html>
