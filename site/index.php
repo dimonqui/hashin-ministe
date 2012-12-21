@@ -206,8 +206,6 @@ Credits: http://www.montecable.com/2012/humans.txt
 			<h2><span class="none">Feliz 2013</span></h2>
 		</article>
 		<div class="fb-like" data-send="false" data-layout="button_count" data-href="http://www.montecable.com/2012" data-width="450" data-show-faces="true"></div>
-		<div class="fb" onclick="return publicarFacebook();"><a href="#" ><span class="none">Facebook</span></a></div>
-
 	</section>
 
 
@@ -264,29 +262,7 @@ window.fbAsyncInit = function() {
     }(document));
     </script>
 
-    <script type="text/javascript">
 
-    function publicarFacebook(){    
-    	FB.ui(
-    	{
-    		method: 'feed',
-    		picture : ''	,
-    		link : 'http://www.montecable.com',
-    		name :'Montecable 2012',
-    		description : 'Montecable 2012'
-    	},
-    	function(response) {
-    		if (response && response.post_id) {
-                //alert('Post was published.');
-              } else {
-                //alert('Post was not published.');
-              }
-            }
-            );
-
-    	return false;
-    }
-    </script>
 
     <style type="text/css">
     .fb-like{
